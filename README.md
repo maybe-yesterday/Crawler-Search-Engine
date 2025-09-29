@@ -16,7 +16,7 @@ Follow these steps to get your development environment set up.
 
 #### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/maybe-yesterday/Crawler-Search-Engine.git)
+git clone https://github.com/maybe-yesterday/Crawler-Search-Engine.git
 cd Crawler-Search-Engine
 ```
 

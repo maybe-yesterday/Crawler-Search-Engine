@@ -1,0 +1,35 @@
+# --- CRITICAL: Ignore all environment files containing secrets ---
+*.env
+.env.*
+!.env.example
+
+# --- Python / Backend ---
+# Virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Meilisearch data
+data.ms/
+
+
+# --- Node.js / Frontend ---
+# Dependencies
+frontend/node_modules/
+package-lock.json
+node_modules/
+
+# Production build folder
+frontend/build/
+
+# Logs
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+
+
+# --- IDEs and Editor Config ---
+# VSCode
+.vscode/
